@@ -1,0 +1,836 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("fonts/*"), url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("fonts/*"), url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("fonts/*"), url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN_r8OX-hpOqc.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN_r8OVuhpOqc.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN_r8OXuhpOqc.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN_r8OUehpOqc.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN_r8OXehpOqc.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN_r8OXOhpOqc.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem8YaGs126MiZpBA-UFUZ0bbck.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem8YaGs126MiZpBA-UFWZ0bbck.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem8YaGs126MiZpBA-UFVp0bbck.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem8YaGs126MiZpBA-UFWp0bbck.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem8YaGs126MiZpBA-UFW50bbck.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem8YaGs126MiZpBA-UFVZ0b.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN7rgOX-hpOqc.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN7rgOVuhpOqc.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN7rgOXuhpOqc.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN7rgOUehpOqc.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN7rgOXehpOqc.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN7rgOXOhpOqc.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/opensans/v20/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1358px;
+  background-color: white;
+}
+.container .complete {
+  text-decoration: line-through;
+}
+.container .headicon {
+  color: white;
+}
+.container .lefthead-icon {
+  color: #3292EA;
+}
+.container .leftlist-icon {
+  color: #292b2fbf;
+  height: 24px;
+  width: 24px;
+}
+.container input:focus, .container textarea:focus, .container select:focus {
+  outline: none;
+}
+.container .header {
+  width: 100%;
+  height: 40px;
+  padding-top: 8px;
+  padding-left: 8px;
+  background-color: #0078d7;
+}
+.container .header .header-icons {
+  height: 16px;
+  width: 29px;
+  padding: 8px;
+  display: inline-block;
+}
+.container .header .left-icons, .container .header .left-icon {
+  height: 16px;
+  width: 21px;
+  padding: 8px;
+  padding-left: 16px;
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  margin-left: 0px;
+}
+.container .header .left-icon {
+  margin-left: 23.4%;
+}
+.container .header .left-icons:last-child, .container .header .left-icon:last-child {
+  padding-top: 0;
+}
+.container .header .heading {
+  height: 12px;
+  width: 50px;
+  padding-top: 8px;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 550;
+  color: white;
+  display: inline-block;
+  vertical-align: top;
+}
+.container .header .search-box:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.container .header .search-box:hover .search {
+  background-color: white;
+}
+.container .header .search-box {
+  height: 22px;
+  width: 390px;
+  display: inline-block;
+  padding: 5px;
+  vertical-align: top;
+  margin-left: 24.3%;
+  background-color: #C3DCF7;
+}
+.container .header .search-box .search {
+  width: 90%;
+  height: 100%;
+  border: none;
+  background-color: #C3DCF7;
+}
+.container .left-container {
+  width: 21.22%;
+  height: 576px;
+  background-color: #F4F4F4;
+  box-shadow: 1px 0px lightgrey;
+  display: inline-block;
+  position: relative;
+  border: none;
+}
+.container .left-container .lefthead-icon {
+  color: #3292EA;
+  height: 24px;
+  width: 24px;
+}
+.container .left-container .left-header {
+  height: 36px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 24px;
+}
+.container .left-container .left-header .head-icon {
+  padding-left: 10px;
+}
+.container .left-container ul#my-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.container .left-container .listStyle {
+  height: 26px;
+  padding-left: 18px;
+  padding-top: 10px;
+}
+.container .left-container .listStyle:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.container .left-container .last-list {
+  margin-bottom: 20px;
+}
+.container .left-container .listvalue-style {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #292b2fbf;
+  font-family: "Roboto", sans-serif;
+}
+.container .left-container .new-listform {
+  height: 36px;
+  padding-left: 18px;
+}
+.container .left-container .new-listform ::placeholder {
+  color: #3292EA;
+  opacity: 1;
+}
+.container .left-container .new-listform .text-box {
+  border: none;
+  width: 72%;
+  height: 90%;
+  background-color: #F4F4F4;
+}
+.container .left-container .left-footer {
+  height: 48px;
+  width: 290px;
+  border-top: 1px solid lightgrey;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.container .left-container .left-footer .sub-icon {
+  width: 54px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: top;
+}
+.container .left-container .left-footer .sub-icon .leftfoot-icon {
+  color: #292b2fbf;
+  padding: 15px;
+}
+.container .left-container .left-footer .sub-icon .last-iconleft {
+  color: #3292EA;
+}
+.container .right-container, .container .rightcontainer-style {
+  width: 74.99%;
+  height: 528px;
+  display: inline-block;
+  background-color: white;
+  vertical-align: top;
+  padding: 24px;
+  margin: 0;
+  padding-right: 20px;
+  overflow: auto;
+}
+.container .right-container .new-taskform, .container .rightcontainer-style .new-taskform {
+  padding-top: 5px;
+  padding-bottom: 14px;
+  width: 100%;
+  height: 35px;
+  box-shadow: 0px 1px lightgrey;
+  position: relative;
+}
+.container .right-container .new-taskform #newTask, .container .rightcontainer-style .new-taskform #newTask {
+  padding-left: 15px;
+  width: 80%;
+  height: 90%;
+  border: none;
+}
+.container .right-container .new-taskform .add-style, .container .rightcontainer-style .new-taskform .add-style, .container .right-container .new-taskform .add-styleShow, .container .rightcontainer-style .new-taskform .add-styleShow {
+  display: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  color: #0078d7;
+  font-size: 15px;
+  font-weight: 400;
+}
+.container .right-container .new-taskform .add-styleShow, .container .rightcontainer-style .new-taskform .add-styleShow {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+}
+.container .right-container ul#task-list, .container .rightcontainer-style ul#task-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.container .right-container .task-liststyle:hover, .container .rightcontainer-style .task-liststyle:hover {
+  background-color: #F4F4F4;
+  cursor: pointer;
+}
+.container .right-container .task-liststyle, .container .rightcontainer-style .task-liststyle {
+  font-family: "Roboto", sans-serif;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 100%;
+  color: #0078d7;
+  font-weight: 400;
+  font-size: 14px;
+  position: relative;
+  display: inline-block;
+  box-shadow: 0px 1px lightgrey;
+}
+.container .right-container .task-liststyle .task-align, .container .rightcontainer-style .task-liststyle .task-align {
+  padding-left: 15px;
+  color: #292b2fbf;
+}
+.container .right-container .task-liststyle .important, .container .rightcontainer-style .task-liststyle .important {
+  position: absolute;
+  right: 10px;
+  display: inline-block;
+}
+.container .right-container .line-liststyle, .container .rightcontainer-style .line-liststyle {
+  height: 54px;
+  width: 100%;
+  box-shadow: 0px 1px lightgrey;
+}
+.container .right-container .right-head, .container .rightcontainer-style .right-head {
+  height: 25px;
+  width: 100%;
+  padding-top: 4px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  color: #0078d7;
+  font-weight: 400;
+}
+.container .right-container .right-head #head, .container .rightcontainer-style .right-head #head {
+  margin: 0;
+  display: inline-block;
+  font-size: 18px;
+  padding-right: 8px;
+}
+.container .right-container .right-head .right-headicon, .container .rightcontainer-style .right-head .right-headicon {
+  display: inline-block;
+  position: absolute;
+  font-size: 14px;
+  right: 0px;
+}
+.container .rightcontainer-style {
+  width: 49%;
+}
+.container .subtask-container, .container .subtask-container-show {
+  width: 24.43%;
+  height: 552px;
+  background-color: #F4F4F4;
+  display: none;
+  padding: 10px;
+  overflow: auto;
+  vertical-align: top;
+}
+.container .subtask-container .subtask-headdiv, .container .subtask-container-show .subtask-headdiv {
+  width: 92.5%;
+  height: 28px;
+  background-color: white;
+  padding: 10px;
+  padding-left: 15px;
+  display: inline-block;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  color: #292b2fbf;
+  font-weight: 200;
+}
+.container .subtask-container .subtask-headdiv .subtask-head, .container .subtask-container-show .subtask-headdiv .subtask-head {
+  margin: 0;
+  display: inline-block;
+  font-size: 18px;
+  padding-left: 8px;
+}
+.container .subtask-container .subtask-headdiv .important, .container .subtask-container-show .subtask-headdiv .important {
+  position: absolute;
+  right: 10px;
+  display: inline-block;
+}
+.container .subtask-container .subtask-bottom, .container .subtask-container-show .subtask-bottom {
+  width: 100%;
+}
+.container .subtask-container .subtask-bottom ul#subtask-list, .container .subtask-container-show .subtask-bottom ul#subtask-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.container .subtask-container .subtask-bottom .add-style, .container .subtask-container-show .subtask-bottom .add-style, .container .subtask-container .subtask-bottom .add-styleShow, .container .subtask-container-show .subtask-bottom .add-styleShow {
+  display: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  color: #0078d7;
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 10px;
+  margin: 0;
+}
+.container .subtask-container .subtask-bottom .list-lines, .container .subtask-container-show .subtask-bottom .list-lines {
+  height: 1px;
+  color: lightgrey;
+  margin-left: 25px;
+  margin-bottom: 5px;
+  background-color: lightgrey;
+  border-width: 0;
+}
+.container .subtask-container .subtask-bottom .add-styleShow, .container .subtask-container-show .subtask-bottom .add-styleShow {
+  display: inline-block;
+  position: absolute;
+  right: 8px;
+}
+.container .subtask-container .subtask-bottom .new-subtaskform, .container .subtask-container-show .subtask-bottom .new-subtaskform {
+  background-color: white;
+  width: 92.5%;
+  height: 28px;
+  position: relative;
+  padding: 10px;
+  padding-left: 15px;
+}
+.container .subtask-container .subtask-bottom .new-subtaskform #newsubTask, .container .subtask-container-show .subtask-bottom .new-subtaskform #newsubTask {
+  padding-left: 15px;
+  width: 72%;
+  height: 90%;
+  border: none;
+}
+.container .subtask-container .subtask-bottom .add-myday, .container .subtask-container-show .subtask-bottom .add-myday {
+  margin-top: 10px;
+  height: 18px;
+  padding: 15px;
+  background-color: white;
+  font-size: 15px;
+  color: #292b2fbf;
+  font-family: "Roboto", sans-serif;
+}
+.container .subtask-container .subtask-bottom .other-options, .container .subtask-container-show .subtask-bottom .other-options {
+  margin-top: 10px;
+  background-color: white;
+  width: 100%;
+  padding-top: 6px;
+  color: #292b2fbf;
+  font-size: 15px;
+  padding-bottom: 6px;
+  font-family: "Roboto", sans-serif;
+}
+.container .subtask-container .subtask-bottom .rightlist-icon, .container .subtask-container-show .subtask-bottom .rightlist-icon {
+  color: #292b2fbf;
+  padding-right: 10px;
+}
+.container .subtask-container .subtask-bottom .line-style, .container .subtask-container-show .subtask-bottom .line-style {
+  height: 1px;
+  color: lightgrey;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: lightgrey;
+  border-width: 0;
+}
+.container .subtask-container .subtask-bottom .add-note, .container .subtask-container-show .subtask-bottom .add-note {
+  margin-top: 10px;
+  height: 90px;
+  width: 100%;
+  background-color: white;
+}
+.container .subtask-container .subtask-bottom .subtasks, .container .subtask-container-show .subtask-bottom .subtasks {
+  background-color: white;
+  width: 100%;
+}
+.container .subtask-container .subtask-bottom .subtask-liststyle:hover, .container .subtask-container-show .subtask-bottom .subtask-liststyle:hover {
+  cursor: pointer;
+}
+.container .subtask-container .subtask-bottom .subtask-liststyle, .container .subtask-container-show .subtask-bottom .subtask-liststyle {
+  padding: 10px;
+  padding-top: 6px;
+  height: 22px;
+  width: 92.5%;
+  background-color: white;
+  padding-left: 15px;
+  font-size: 15px;
+}
+.container .subtask-container .subtask-bottom .subtask-liststyle .subtask-align, .container .subtask-container-show .subtask-bottom .subtask-liststyle .subtask-align {
+  margin-left: 12px;
+  font-family: "Roboto", sans-serif;
+}
+.container .subtask-container-show {
+  display: inline-block;
+}

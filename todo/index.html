@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>to-Do</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Nandhakumar">
+  <meta name="description" content="ToDoLit to save our tasks and remaind">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/e44bd542d0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-icons">
+        <i class="fas fa-th fa-lg headicon"></i>
+      </div>
+      <div class="heading">
+        To Do
+      </div>
+      <div class="search-box">
+        <i class="fas fa-search lefthead-icon"></i>
+        <input type:text class="search" id="search" onclick="showPlaceholder()">
+      </div>
+      <div class="left-icon">
+        <i class="fas fa-cog headicon"></i>
+      </div>
+      <div class="left-icons">
+        <i class="fas fa-question headicon"></i>
+      </div>
+      <div class="left-icons">
+        <i class="fas fa-external-link-alt headicon"></i>
+      </div>
+      <div class="left-icons">
+        <i class="far fa-user-circle fa-2x headicon"></i>
+      </div>
+    </div> 
+    <div class="left-container">
+      <div class="left-header">
+        <span class="head-icon">
+          <i class="fas fa-chevron-left fa-lg lefthead-icon"></i>
+        </span>
+      </div>
+      <ul id="my-list"></ul>
+      <div class="new-listform">
+        <i id ="addIcon" class="fas fa-plus lefthead-icon"></i>
+        <input class="text-box" type:text placeholder="New List" onkeypress="handleKeyPress(event)" id="newList"> 
+        <i  class="far fa-square lefthead-icon"></i>
+      </div>
+      <div class="left-footer">
+        <div class="sub-icon">
+          <i class="fas fa-envelope leftfoot-icon"></i>
+        </div>
+        <div class="sub-icon">
+          <i class="fas fa-calendar-alt leftfoot-icon"></i>
+        </div>
+        <div class="sub-icon">
+          <i class="fas fa-id-badge leftfoot-icon"></i>
+        </div>
+        <div class="sub-icon">
+          <i class="fas fa-upload leftfoot-icon"></i>
+        </div>
+        <div class="sub-icon">
+          <i class="fas fa-check leftfoot-icon last-iconleft"></i>
+        </div>
+      </div>
+    </div>
+    <div class="right-container" id="right-container">
+      <div class="right-head">
+        <h1 id="head"></h1>
+        <i class="fas fa-ellipsis-h leftlist-icon"></i>
+        <div class="right-headicon">
+          <i class="fas fa-arrows-alt-v"></i>
+          Sort
+        </div>
+      </div>
+      <div class="new-taskform">
+        <i class="fas fa-plus lefthead-icon" id="form-icon"></i>
+        <input class="text-box" type:text placeholder="Add a task" onkeypress="handleKeyPressTask(event)" id="newTask"> 
+        <h3 id="add-style" onclick="addTask()" class="add-style"> ADD</h3>
+      </div>
+      <ul id="task-list"></ul>
+    </div>
+    <div class="subtask-container" id="subtask-container">
+      <div class="subtask-headdiv">
+        <i class="far fa-circle lefthead-icon" id="rightComplete"></i>
+        <h1 id="subtask-head" class="subtask-head"></h1>
+        <i class="far fa-star important" id="rightImportant" ></i>
+      </div>
+      <div class="subtask-bottom">
+        <ul id="subtask-list" class="fa-ul"></ul>
+        <div class="new-subtaskform">
+          <i class="fas fa-plus lefthead-icon" id="forms-icon"></i>
+          <input class="text-box" type:text placeholder="Add step" onkeypress="handleKeyPressSubTask(event)" id="newsubTask"> 
+          <h3 id="addsubtask-style" onclick="addSubTask()" class="add-style"> ADD</h3>
+        </div>
+        <div class="add-myday">
+          <i class="far fa-sun leftlist-icon"></i>
+          Add to My Day
+        </div>
+        <div class="other-options">
+          <ul class="fa-ul">
+            <li><span class="fa-li"><i class="far fa-bell rightlist-icon"></i></span>Remind me</li>
+            <hr class="line-style">
+            <li><span class="fa-li"><i class="fas fa-calendar-alt rightlist-icon"></i></span>Add due date</li>
+            <hr class="line-style">
+            <li><span class="fa-li"><i class="fas fa-redo rightlist-icon"></i></span>Repeat</li>
+          </ul>
+        </div>
+        <div class="add-myday">
+          <i class="fas fa-location-arrow leftlist-icon"></i>
+          Pick a Category
+        </div>
+        <div class="add-myday">
+          <i class="fas fa-upload leftlist-icon"></i>
+          Add file
+        </div>
+        <div class="add-note">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+<script src="script.js"></script>
+

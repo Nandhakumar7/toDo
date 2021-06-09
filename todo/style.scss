@@ -1,0 +1,409 @@
+@import "fonts/fonts";
+@import "color";
+@mixin list-style{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1358px;
+    background-color: $white;
+    .complete {
+        text-decoration: line-through;
+    }
+    .headicon {
+        color: $white;
+    }
+    .lefthead-icon {
+        color: $icon-color;
+    }
+    .leftlist-icon {
+        color: $list-valuecolor;
+        height:24px;
+        width: 24px;
+    }
+    input:focus, textarea:focus, select:focus {
+        outline: none;
+    }
+    .header {
+        width: 100%;
+        height: 40px;
+        padding-top: 8px;
+        padding-left: 8px;
+        background-color: $header-color;
+        .header-icons {
+            height: 16px;
+            width: 29px;
+            padding: 8px;
+            display: inline-block;
+        }
+        .left-icons{
+            height: 16px;
+            width: 21px;
+            padding: 8px;
+            padding-left: 16px;
+            display: inline-block;
+            vertical-align: top;
+            color: $white;
+            margin-left: 0px;
+        }
+        .left-icon {
+           @extend .left-icons;
+            margin-left: 23.4%;
+        }
+        .left-icons:last-child {
+            padding-top: 0;
+        }
+        .heading {
+            height: 12px;
+            width: 50px;
+            padding-top: 8px;
+            text-align: left;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 550;
+            color: $white;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .search-box:hover {
+            background-color: $white;
+            cursor: pointer;
+            .search {
+                background-color: $white;
+            }
+        }
+        .search-box {
+            height: 22px;
+            width: 390px;
+            display: inline-block;
+            padding: 5px;
+            vertical-align: top;
+            margin-left: 24.30%;
+            background-color: $searchbox-color;
+            .search {
+                width: 90%;
+                height: 100%;
+                border: none;
+                background-color: $searchbox-color;
+            }
+        }
+   }
+   .left-container {
+        width: 21.22%;
+        height: 576px;
+        background-color: $leftbackgroud-color;
+        box-shadow: 1px 0px $border-color;
+        display: inline-block;
+        position: relative;           
+	    border: none;
+        .lefthead-icon {
+            color: $icon-color;
+            height:24px;
+            width: 24px;
+        }
+        .left-header{
+            height: 36px;
+            padding-right: 8px;
+            padding-left: 8px;
+            padding-top: 24px;
+            .head-icon {
+                padding-left: 10px;
+            }
+        }
+        ul#my-list{
+            @include list-style();
+        }
+        .listStyle {
+            height: 26px;
+            padding-left: 18px;
+            padding-top: 10px;
+        }
+        .listStyle:hover {
+            background-color: $white;
+            cursor: pointer;
+        }
+        .last-list{
+            margin-bottom: 20px;
+        }
+        .listvalue-style{
+            margin-left: 10px;
+            font-size: 14px;
+            font-weight: 400;
+            color: $list-valuecolor;
+            font-family: 'Roboto', sans-serif;
+        }
+        .new-listform {
+            height: 36px;
+            padding-left: 18px;
+            ::placeholder { 
+                color: $icon-color;
+                opacity: 1; 
+            }
+            .text-box{
+                border: none;
+                width: 72%;
+                height:90%;
+                background-color: $leftbackgroud-color;
+            }
+        }
+        .left-footer{
+            height: 48px;
+            width: 290px;
+            border-top: 1px solid $border-color;
+            position:absolute;                 
+            bottom:0;                         
+            left:0; 
+            .sub-icon {
+                width: 54px;
+                height: 40px;
+                display: inline-block;
+                vertical-align: top;
+                .leftfoot-icon{
+                    color: $list-valuecolor;
+                    padding: 15px
+                }
+               .last-iconleft{
+                    color: $icon-color;
+                }
+            }
+        }
+    }
+   .right-container {
+        width: 74.99%;
+        height: 528px;
+        display: inline-block;
+        background-color: $white;
+        vertical-align: top;
+        padding: 24px;
+        margin: 0;
+        padding-right: 20px;
+        overflow: auto;
+        .new-taskform{
+            padding-top: 5px;
+            padding-bottom: 14px;
+            width: 100%;
+            height: 35px;
+            box-shadow: 0px 1px $border-color;
+            position: relative;
+            #newTask {
+                padding-left: 15px;
+                width: 80%;
+                height: 90%;
+                border: none;
+            }
+            .add-style{
+                display: none;
+                cursor: pointer;
+                font-family: 'Roboto', sans-serif;
+                color: $header-color;
+                font-size: 15px;
+                font-weight: 400;
+            }
+            .add-styleShow{
+                @extend .add-style;
+                display: inline-block;
+                position: absolute;
+                right: 0px;
+            }
+        }
+        ul#task-list{
+           @include list-style();
+        }
+        .task-liststyle:hover {
+            background-color: $leftbackgroud-color;
+            cursor: pointer;
+        }
+        .task-liststyle {
+            font-family: 'Roboto', sans-serif;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            width:100%;
+            color: $header-color;
+            font-weight: 400;
+            font-size: 14px; 
+            position: relative;
+            display: inline-block;
+            box-shadow: 0px 1px $border-color;
+            .task-align {
+                 padding-left: 15px;
+                 color: $list-valuecolor;
+            }
+            .important{
+                position:absolute;
+                right: 10px;
+                display: inline-block;
+            }
+        }
+        .line-liststyle {
+            height: 54px;
+            width:100%;
+            box-shadow: 0px 1px $border-color;
+        }
+        .right-head { 
+            height: 25px;
+            width: 100%;
+            padding-top: 4px;
+            position: relative;
+            font-family: 'Roboto', sans-serif;
+            color: $header-color;
+            font-weight: 400;
+            #head {
+                margin: 0;
+                display: inline-block;
+                font-size: 18px; 
+                padding-right:8px;
+            }
+            .right-headicon {
+                display: inline-block;
+                position: absolute;
+                font-size: 14px;
+                right: 0px;
+           }
+        }
+   }
+   .rightcontainer-style{
+        width: 49%;
+        @extend .right-container;
+    }
+   .subtask-container{
+        width: 24.43%;
+        height: 552px;
+        background-color: $leftbackgroud-color;
+        display: none;
+        padding: 10px;
+        overflow: auto;
+        vertical-align: top;
+        .subtask-headdiv {
+            width: 92.5%;
+            height: 28px;
+            background-color: $white;
+            padding: 10px;
+            padding-left: 15px;
+            display: inline-block;
+            position: relative;
+            font-family: 'Roboto', sans-serif;
+            color: $list-valuecolor;
+            font-weight: 200;
+            .subtask-head {
+                margin: 0;
+                display: inline-block;
+                font-size: 18px; 
+                padding-left: 8px;
+            }
+            .important{
+                position:absolute;
+                right: 10px;
+                display: inline-block;
+            }
+        }
+        .subtask-bottom {
+            width: 100%;
+            ul#subtask-list {
+                @include list-style();
+            }
+            .add-style {
+                display: none;
+                cursor: pointer;
+                font-family: 'Roboto', sans-serif;
+                color: $header-color;
+                font-size: 13px;
+                font-weight: 400;
+                padding-top: 10px;
+                margin: 0;
+            }
+            .list-lines{
+                height: 1px;
+                color: $border-color;
+                margin-left: 25px;
+                margin-bottom: 5px;
+                background-color: $border-color;
+                border-width: 0;
+            }
+           .add-styleShow{
+                @extend .add-style;
+                display: inline-block;
+                position: absolute;
+                right: 8px;
+            }
+            .new-subtaskform{
+                background-color: $white;
+                width: 92.5%;
+                height: 28px;
+                position: relative;
+                padding: 10px;
+                padding-left: 15px;
+                #newsubTask {
+                    padding-left: 15px;
+                    width: 72%;
+                    height: 90%;
+                    border: none;
+               }
+            }
+            .add-myday {
+                margin-top: 10px;
+                height: 18px;
+                padding: 15px;
+                background-color: $white;
+                font-size: 15px;
+                color: $list-valuecolor;
+                font-family: 'Roboto', sans-serif;
+            }
+            .other-options{
+                margin-top: 10px;
+                background-color: $white;
+                width: 100%;
+                padding-top: 6px;
+                color: $list-valuecolor;
+                font-size: 15px;
+                padding-bottom: 6px;
+                font-family: 'Roboto', sans-serif;
+            }
+            .rightlist-icon{
+                color: $list-valuecolor;
+                padding-right: 10px;
+            }
+            .line-style {
+                height: 1px;
+                color: $border-color;
+                margin-top: 16px;
+                margin-bottom: 16px;
+                background-color: $border-color;
+                border-width: 0;
+            }
+            .add-note{
+                margin-top: 10px;
+                height: 90px;
+                width: 100%;
+                background-color: $white;
+            }
+            .subtasks{
+                background-color: $white;
+                width: 100%;
+            }
+            .subtask-liststyle:hover {
+                cursor: pointer;
+            }
+            .subtask-liststyle {
+                padding:10px;
+                padding-top: 6px;
+                height: 22px;
+                width: 92.5%;
+                background-color: $white;
+                padding-left: 15px;
+                font-size: 15px;
+                .subtask-align {
+                    margin-left: 12px;
+                    font-family: 'Roboto', sans-serif;
+                }
+            }
+        }
+   }
+   .subtask-container-show {
+        @extend .subtask-container;
+        display: inline-block;
+    }
+}
